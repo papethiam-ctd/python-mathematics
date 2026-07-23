@@ -1,12 +1,12 @@
-# Python for Mathematics
+# Linear Algebra with Python
 
-This repository contains Python programs related to mathematics, numerical methods, linear algebra, optimization, and differential equations.
+This repository contains Python implementations of fundamental linear algebra algorithms.
+
+Topics:
+- Matrix operations
+- Determinants
+- Matrix inverse
+- Eigenvalues and eigenvectors
+- Solving linear systems
 
 Author: Samba THIAM
-
-Current interests:
-- Applied Mathematics
-- Differential Inclusions
-- Functional Analysis
-- Numerical Analysis
-- Python Programming
