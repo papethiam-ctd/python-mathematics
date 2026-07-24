@@ -1,1 +1,59 @@
+import numpy as np
 
+# Définition de deux matrices
+A = np.array([[2, 1],
+              [3, 4]])
+
+B = np.array([[1, 5],
+              [2, 6]])
+
+print("Matrice A :")
+print(A)
+
+print("\nMatrice B :")
+print(B)
+
+# Addition
+print("\nA + B =")
+print(A + B)
+
+# Soustraction
+print("\nA - B =")
+print(A - B)
+
+# Multiplication matricielle
+print("\nA × B =")
+print(np.matmul(A, B))
+
+# Transposée
+print("\nTransposée de A :")
+print(A.T)
+
+# Déterminant
+print("\nDéterminant de A :")
+print(np.linalg.det(A))
+
+# Inverse
+print("\nInverse de A :")
+print(np.linalg.inv(A))
+
+# Valeurs propres
+print("\nValeurs propres de A :")
+print(np.linalg.eigvals(A))
+
+# Valeurs propres et vecteurs propres
+valeurs, vecteurs = np.linalg.eig(A)
+
+print("\nValeurs propres :")
+print(valeurs)
+
+print("\nVecteurs propres :")
+print(vecteurs)
+
+# Résolution d'un système linéaire Ax = b
+b = np.array([5, 11])
+
+x = np.linalg.solve(A, b)
+
+print("\nSolution du système Ax = b :")
+print(x)
