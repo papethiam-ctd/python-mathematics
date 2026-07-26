@@ -1,12 +1,32 @@
 # Linear Algebra with Python
 
-This repository contains Python implementations of fundamental linear algebra algorithms.
+This project demonstrates basic linear algebra operations using Python and NumPy.
 
-Topics:
-- Matrix operations
-- Determinants
+## Features
+
+- Matrix addition
+- Matrix subtraction
+- Matrix multiplication
+- Matrix transpose
+- Determinant
 - Matrix inverse
-- Eigenvalues and eigenvectors
+- Eigenvalues
+- Eigenvectors
 - Solving linear systems
+
+
+Author: Samba THIAM
+
+
+# Numerical Methods in Python
+
+This project implements classical numerical methods used in applied mathematics.
+
+## Methods Included
+
+- Bisection Method
+- Newton Method
+- Secant Method
+- Euler Method
 
 Author: Samba THIAM
