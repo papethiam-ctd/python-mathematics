@@ -30,3 +30,19 @@ This project implements classical numerical methods used in applied mathematics.
 - Euler Method
 
 Author: Samba THIAM
+
+# Differential Equations with Python
+
+This repository contains numerical methods for solving ordinary differential equations (ODEs) using Python.
+
+## Implemented methods
+
+- Euler Method
+- Runge-Kutta 4 (RK4)
+
+## Features
+
+- Numerical solution of first-order differential equations
+- Graphical visualization using Matplotlib
+
+Author: Samba THIAM
